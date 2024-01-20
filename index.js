@@ -11,16 +11,3 @@ ctx.moveTo(300,300);
 ctx.lineTo(400,400);
 ctx.stroke();
 
-ctx.strokeStyle='#ff0000'
-ctx.moveTo(320,300);
-ctx.lineTo(420,400);
-ctx.stroke();
-
-ctx.moveTo(300,300);
-ctx.lineTo(400,400);
-ctx.stroke();
-ctx.beginPath();
-ctx.strokeStyle='#ff0000'
-ctx.moveTo(320,300);
-ctx.lineTo(420,400);
-ctx.stroke();
