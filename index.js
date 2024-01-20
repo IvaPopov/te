@@ -1,19 +1,19 @@
-const canvasPlot = document.getElementById('canvas_plot')
-const ctx = canvasPlot.getContext('2d')
+const canvasPlot = document.getElementById("canvas_plot")
+const ctx = canvasPlot.getContext("2d")
 const canvasPlotWidth=canvasPlot.clientWidth;
 const canvasPlotHeight=canvasPlot.clientHeight;
 console.log(canvasPlotWidth, canvasPlotHeight);
 const scaleX=30;
 const scaleY=30;
 
-ctx.textAlign='left';
-ctx.textBaseline='top';
+ctx.textAlign="left";
+ctx.textBaseline="top";
 
 const xAxis=Math.round(canvasPlotWidth/scaleX/2)*scaleX;
 const yAxis=Math.round(canvasPlotHeight/scaleY/2)*scaleY;
 
 ctx.beginPath();
-ctx.strokeStyle='#999999';
+ctx.strokeStyle="#999999";
 ctx.moveTo(xAxis,0);
 ctx.lineTo(xAxis,canvasPlotHeight);
 ctx.moveTo(0,yAxis);
