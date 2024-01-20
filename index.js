@@ -7,7 +7,7 @@ ctx.fillRect(100,100,200,200);
 ctx.stroke();
 
 ctx.beginPath();
-ctx.strokeStyle='#ff0000'
+ctx.strokeStyle="#ff0000"
 ctx.moveTo(300,300);
 ctx.lineTo(400,400);
 ctx.stroke();
