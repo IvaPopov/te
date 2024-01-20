@@ -1,5 +1,5 @@
-const canvasPlot = document.getElementById('canvas_plot');
-const ctx=canvasPlot.getContext('2D');
+const canvasPlot = document.getElementById('canvas_plot')
+const ctx = canvasPlot.getContext('2d')
 const canvasPlotWidth=canvasPlot.clientWidth;
 const canvasPlotHeight=canvasPlot.clientHeight;
 console.log(canvasPlotWidth, canvasPlotHeight);
@@ -52,7 +52,6 @@ const x=(i-xAxis)/scaleX;
 const y=Math.pow(x,2);
 ctx.fillRect(x*scaleX+xAxis,yAxis-scaleY*y,4,4);
 }
-
 
 
 
