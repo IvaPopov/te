@@ -1,3 +1,8 @@
 const canvasPlot = document.getElementById('canvas_plot');
 const ctx=canvasPlot.getContext('2D');
-const canvasPlot
+
+ctx.fillRect(x,y,xSize,ySize)
+ctx.fillRect(0,0,100,100);
+ctx.fillStyle='#0000ff';
+ctx.fillRect(100,100,200,200);
+ctx.stroke();
